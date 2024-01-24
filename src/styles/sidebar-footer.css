@@ -1,13 +1,7 @@
-:root {
-    --background-color-: #000;
-    --card-color-: #121212;
-    --font-color-: #b3b3b3;
-    --dmsans-font-: 'DM Sans', sans-serif;
-}
-
 /* CSS DA AULA 1 */
 body {
     background-color: #000;
+    font-family: var(--font-dm-sans);
 }
 
 .sidebar {
@@ -49,7 +43,6 @@ body {
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
-    font-family: var(--dmsans-font-);
 }
 
 .sidebar nav ul li a .fa {
@@ -90,7 +83,6 @@ body {
     border: 0px;
     font-size: 14px;
     font-weight: 700;
-    font-family: var(--dmsans-font-);
     text-align: center;
     text-decoration: none;
     text-transform: none;
@@ -134,7 +126,6 @@ body {
 .section-playlist__content .text {
     padding-bottom: 14px;
     color: #fff;
-    font-family: var(--dmsans-font-);
 }
 
 .section-playlist__content .title {
@@ -154,7 +145,6 @@ body {
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
-    font-family: var(--dmsans-font-);
     text-decoration: none;
     text-transform: none;
     padding: 10px;
@@ -167,7 +157,7 @@ body {
 .section-playlist__content .section-playlist__button:hover {
     background-color: var(--card-color-);
     color: #fff;
-    background-image: linear-gradient(to bottom, #52796f, #212529);
+    background: linear-gradient(to bottom, #52796f, #212529);
 }
 
 
@@ -207,8 +197,7 @@ body {
     bottom: 0;
     right: 0;
     left: 0;
-    background: linear-gradient(to right, #ae2896, #509bf5);
-    font-family: var(--dmsans-font-);
+    background: linear-gradient(to right, #3a5a40, #03071e);
     color: #fff;
 }
 
@@ -232,5 +221,6 @@ body {
 }
 
 .disclaimer-premium button:hover {
-    background: linear-gradient(to right, #ffc2d1, #90e0ef);
+    background: linear-gradient(to right, #3a5a40, #03071e);
+    color: #fff;
 }

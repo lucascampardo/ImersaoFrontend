@@ -1,0 +1,11 @@
+:root {
+    /* FONT */
+    --font-dm-sans: "DM Sans", sans-serif;
+
+    /* COLORS */
+    --background-color-: #000; /* background da página */
+    --card-color-: #121212; /* background das informações */
+    --font-color-: #b3b3b3; /* cor da fonte */
+    --bg-icon: #131313; /* cor dos ícones */
+    --bg-arrow-color: rgba(0, 0, 0, 0.7);
+}
