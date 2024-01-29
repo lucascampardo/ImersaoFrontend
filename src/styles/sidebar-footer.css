@@ -197,7 +197,7 @@ body {
     bottom: 0;
     right: 0;
     left: 0;
-    background: linear-gradient(to right, #3a5a40, #03071e);
+    background: linear-gradient(to right, #26292e, #212529, #101419);
     color: #fff;
 }
 
@@ -221,6 +221,6 @@ body {
 }
 
 .disclaimer-premium button:hover {
-    background: linear-gradient(to right, #3a5a40, #03071e);
+    background: linear-gradient(to right, #212529, #101419);
     color: #fff;
 }

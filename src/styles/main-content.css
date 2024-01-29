@@ -196,63 +196,63 @@
 
 /* COLOR CARDS */
 .card1 {
-    background-color: var(--card1);
+    background: linear-gradient(to bottom, var(--card1), #468c98);
 }
 
 .card2 {
-    background-color: var(--card2);
+    background: linear-gradient(to bottom, var(--card2), #735d78);
 }
 
 .card3 {
-    background-color: var(--card3);
+    background: linear-gradient(to bottom, var(--card3), #457b9d);
 }
 
 .card4 {
-    background-color: var(--card4);
+    background: linear-gradient(to bottom, var(--card4), #984447);
 }
 
 .card5 {
-    background-color: var(--card5);
+    background: linear-gradient(to bottom, var(--card5), #f26a8d);
 }
 
 .card6 {
-    background-color: var(--card6);
+    background: linear-gradient(to bottom, var(--card6), #aec3b0);
 }
 
 .card7 {
-    background-color: var(--card7);
+    background: linear-gradient(to bottom, var(--card7), #b298dc);
 }
 
 .card8 {
-    background-color: var(--card8);
+    background: linear-gradient(to bottom, var(--card8), #8cb369);
 }
 
 .card9 {
-    background-color: var(--card9);
+    background: linear-gradient(to bottom, var(--card9), #3a506b);
 }
 
 .card10 {
-    background-color: var(--card10);
+    background: linear-gradient(to bottom, var(--card10), #f07167);
 }
 
 .card11 {
-    background-color: var(--card11);
+    background: linear-gradient(to bottom, var(--card11), #b298dc);
 }
 
 .card12 {
-    background-color: var(--card12);
+    background: linear-gradient(to bottom, var(--card12), #ffa62b);
 }
 
 .card13 {
-    background-color: var(--card13);
+    background: linear-gradient(to bottom, var(--card13), #fb8b24);
 }
 
 .card14 {
-    background-color: var(--card14);
+    background: linear-gradient(to bottom, var(--card14), #5bc0be);
 }
 
 .card15 {
-    background-color: var(--card15);
+    background: linear-gradient(to bottom, var(--card15), #a663cc);
 }
 
 /* FIM COLOR CARDS */
@@ -295,6 +295,7 @@
     position: relative;
     transition: background-color 0.3s ease;
     width: 100%;
+    max-width: 80vh;
     text-transform: none;
 }
 
@@ -344,6 +345,7 @@
     font-weight: 700;
     padding-block-end: 8px;
     text-decoration: none;
+
 }
 
 .artist-categorie {
